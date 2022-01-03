@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+   
+}
+
+header{
+    background-image: url(./pexels-pew-nguyen-244134.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+
+}
+body{
+    background-color:#c5672c;
+}
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    color: black;
+    font-size: 40px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    justify-items: stretch;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+
+header p{
+    font-family: sans-serif;
+    
+}
+
+button{
+    width: 214px;
+    height: 65px;
+    font-size: 25px;
+    background: #c5672c;
+    color: rgb(255, 248, 248);
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 81px 30px;
+    
+    
+}
+
+table{
+    width: 100%;
+    border: 2;
+    background: rgb(250, 255, 255);
+   
+    padding: 30px;
+}
+
+tr{
+     box-shadow: 3px 3px 3px #ff8801cb;
+}
+
+
+
+
+
+.wrapper{
+  position: absolute;
+    left: 40%;
+    /* border: aquamarine; */
+    top: 120%;
+}
+
+table{
+    margin-top: 700px;
+}
+
+
+
+.wrapper{
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 350px;
+    box-shadow: 4px 4px 4px rgb(255, 208, 0);
+
+}
+
+.wrapper{
+    padding: 50px;
+}
+.wrapper input[type="text"]{
+        width: 70%;
+}
+
+.wrapper input[type="date"]{
+    width: 70%;
+}
+#langue{
+    width: 72%;
+    text-align: center;
+}
+
+.wrapper input[type="email"]{
+    width: 70%;
+}
+
+
+
+#btn{
+    width: 40%;
+    text-align: center;
+    background-color: #ebad0e;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.btn1{
+    background-color: #0efd8654;
+    color: #000000;
+    text-align: center;
+    padding: 4px 20px;
+
+    
+}
+.btn2{
+    background-color: #fd0e0e86;
+    color: #000000;
+    padding: 4px 20px;
+    text-align: center;
+   
+}
+
+#noprint{
+    text-align: center;
+
+}
+#btn3{
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

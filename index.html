@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+     <h1 class="h1">Bibliothéque BER CHIFA </h1>
+ 
+    <header> 
+       
+  
+     
+<div>
+
+
+
+<p style="color: azure;">   A fin d'ouvrir de nouveaux <br> portes à coté de solicode .<br> <br> Aidez nous a ajouter <br> des nouveaux ouvrages  </p>
+</div>
+
+<div>
+
+ <a href="#wrapper"><button>Ajouter un ouvrage </button></a>
+
+</div>
+    </header>
+
+
+<body>
+    <div class="wrapper" id="wrapper">
+
+    <form id="Form" name="Form" action="javascript:void(0)">
+        <div class="box">
+        <div class="MiniBox test">
+            <label id="lbl">Titre :</label><br>
+            <input type="text" id="title" class="title" maxlength="30"/>
+            <p class="validation" ></p>
+        </div>
+            <br>
+        <div class="form-control ">
+            <label>Auteur :</label><br>
+            <input type="text" id="auteur" class="title"  maxlength="30" />
+            <p class="validation" ></p>
+        </div>
+
+            <br>
+        <div class="form-control ">
+            <label>Auteur-email:</label><br>
+            <input type="text" id="email" class="email"  />
+            <p class="validation" ></p>
+        </div>
+            <br>
+        <div class="form-control">
+            <label>Prix :</label> <br>
+            <input type="number" id="prix" />
+            <p class="validation" id="msgPrix" ></p>
+        </div>
+
+
+    </div>
+
+<br>
+
+    <div class="grid2">
+
+
+        <div class="form-control">
+            
+            <label>Date publication :</label><br> 
+            <input type="date" id="date" />
+            <p class="validation" ></p>
+        </div>
+            <br>
+        <div class="form-control">
+            <label>Langue :</label><br>
+            <select id="langue" name="langue">
+                <option disabled selected hidden value="0">-- select langue--</option>
+                <option value="Français">Français</option>
+                <option value="Anglais">Anglais</option>
+                <option value="Arabe">Arabe</option>
+            </select>
+            <p id="lng" ></p>
+        </div>
+        <br><br>
+        
+        <div class="radio">        
+            <input type="radio" id="Roman" name="season" value="Roman" class="type" >
+            <label for="Roman">Roman</label>
+            <input type="radio" id="Essai" name="season" value="Essai" class="type" >
+            <label for="Essai">Essai</label>
+            <input type="radio" id="Bande-Dessinée" name="season" value="Bande-Dessinée" class="type"  >
+            <label for="Bande-Dessinée">Bande-Dessinée</label>
+            <p id="radiobtn" ></p>
+        </div>
+        <br> 
+    
+    
+        <div class="form-control">
+           <input type='submit' value='Valider' id='btn' onclick="validation()">  
+            <br>
+        </div>
+
+</form>
+
+
+        <br><br>
+        </div>
+    
+    </div>
+
+    <table id="table" border="1">
+        <tr>
+            <th>Titre</th>
+            <th>Auteur</th>
+            <th>Prix</th>
+            <th>Date Publication</th>
+            <th>Langue</th>
+             <th>email</th>
+            <th>Type</th>
+            <th><span style="color: green;">Edit</span> /<span style="color: red;">Delete</span> </th>
+        </tr>
+
+    </table>
+
+    </div>
+
+    <p id="demo"></p>
+
+
+
+    <div id='noprint'>
+        <button id='btn3'>Print</button>
+            </div>
+
+
+
+    
+
+
+    <script src="js.js">  </script>
+   
+
+</body>
+</html>
